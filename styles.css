@@ -1,0 +1,129 @@
+/*
+Author: Soumya Deb (2013)
+License: MPL 2.0
+*/
+
+/* - PRELIMS - */
+
+body {
+    width: 60%;
+    margin: auto;
+    min-width: 800px;
+    max-width: 960px;
+    color: #777;
+    background: #f8f8f8;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 150%;
+    box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: #06C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #39F;
+}
+
+hr {
+    color: #666;
+}
+
+h3 {
+    text-align: right;
+}
+
+h4,
+h5 {
+    display: inline;
+}
+
+h5 {
+    margin: 0;
+    float: right;
+}
+
+/* - HEADER - */
+
+header {
+    padding: 64px 64px 16px 64px;
+}
+
+header aside {
+    float: right;
+    text-align: right;
+}
+
+header aside a {
+    color: #EEE;
+    float: right;
+    padding: 5px 10px;
+    background: #666;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+header aside a:hover {
+    color: #FFF;
+    background: #69C;
+    border: 1px solid #069;
+}
+
+/* - ARTICLE - */
+
+article {
+    padding: 16px 64px 0;
+}
+
+article section {
+    margin-bottom: 64px;
+}
+
+article p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+article p a {
+    font-weight: bold;
+}
+
+/* - FOOTER - */
+
+footer {
+    padding: 0 64px 32px;
+    font-size: 12px;
+}
+
+/* - MEDIA - */
+
+@media print {
+    body {
+        color: #444;
+        background: #fff;
+        box-shadow: none;
+    }
+    a {
+        color: inherit;
+    }
+    header {
+        padding: 64px 48px 16px 64px;
+    }
+    header aside a {
+        visibility: hidden;
+    }
+    article {
+        padding: 16px 48px 0 64px;
+    }
+    article section {
+        margin-bottom: 48px;
+    }
+    footer {
+        display: none;
+    }
+    .pagebreak {
+        page-break-before: always;
+    }
+}
