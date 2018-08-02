@@ -1,0 +1,89 @@
+{
+  "details":{
+    "header":{
+      "name":"John M. Doe",
+      "city":"London",
+      "country":"England",
+      "mobile":"+41 000 0000",
+      "email":"johndoe@theinternet.org",
+      "website":"https://theinternet.org",
+      "native_lang":"English",
+      "fluent_langs":[
+        "Spanish",
+        "French"
+      ]
+    },
+    "body":{
+      "Professional Experience":[
+        {
+          "title":"Sun Microsystem Labs. - Liverpool",
+          "subtitle":"[ Lead Backend Developer ]",
+          "description":"<b>May, 2016 - Present</b> — Leading the backend of an internal messaging API. Focussed on optimization and queue management."
+        },
+        {
+          "title":"Google Inc. - Perth",
+          "subtitle":"[ Software Engineer ]",
+          "description":"<b>May, 2013 - April, 2016</b> — Overlooked API design, approved new design specs and overlooked the backend team. Lead the development of an internal R&D devtool-project."
+        }
+      ],
+      "Academic Details":[
+        {
+          "title":"Post Graduate [2010]",
+          "subtitle":"Phd. in Distibuted Systems Engineering",
+          "description":"Post graduate from University of Michigan, U.S.A, Upper Class honors"
+        },
+        {
+          "title":"Graduate [2006]",
+          "subtitle":"Degree in Computer Science & Engineering",
+          "description":"B.tech C.S.E from I.I.T Bombay, India. Upper Class honors"
+        }
+      ],
+      "Skills and Competence":[
+        {
+          "title":"Interface Design and Layout",
+          "subtitle":"",
+          "description":"Proficient in designing application-interfaces with HTML/CSS, XUL/XBL, Nokia Qt, Adobe Flash/Flex and Windows Presentation Foundation (WPF). Also skilled in Adobe Photoshop, Illustrator, InDesign, GIMP, InkScape etc. for print/screen publish media."
+        },
+        {
+          "title":"Web Technology and Frameworks",
+          "subtitle":"",
+          "Efficient using HTML5-APIs, AJAX/JSONP, CSS-Preprocessors, countless JS libs/frameworks et. al. Fanatic about writing standard-compliant, performance-optimized, bandwidth-friendly markups. Capable of making/managing high-traffic websites on Drupal, Joomla!, Ruby on Rails, Django and MediaWiki. Can throw libraries/dependencies off the window & hand-code everything from scratch, if required."
+        },
+        {
+          "title":"System Support and Troubleshooting",
+          "subtitle":"",
+          "description":"System Administration on GNU/Linux, Mac OS X & Windows, Hardware Assembling, Software/Hardware Troubleshooting, Network setup & configuration at small/large scale, Network Security & Firewalls. Have experience setting-up & administrating private Git, MediaWiki, Bugzilla etc. servers."
+        }
+      ],
+      "Extracurricular Engagements":[
+        {
+          "title":"Spreading the Mozilla Manifesto",
+          "subtitle":"(To make the web a better place)",
+          "description":"Mozilla Reps' Council Member, Contributor to Mozilla Central, Firefox AddOn Developer, Webmaker Super Mentor, Mozilla Community IT SysAdmin, Leader of Mozilla India and contributor of various projects & planning, such as Grow Mozilla, News Mozilla, Privacy Icon project etc."
+        },
+        {
+          "title":"Public Speaking/Writing",
+          "subtitle":"(Talks and Publications)",
+          "description":"Occationally I give talks, take workshops on open web technologies, Browser addon developments etc. Most of my talk slides are made with HTML5/CSS3/JS."
+        },        
+        {
+          "title":"Other Open Source Projects",
+          "subtitle":"(Non-Profit/FLOSS Contributions)",
+          "description":"Senior Wikipedia Editor and the Acting Leader of WikiProject Software. Contributor of Wikipedia-Mobile app for Android/iOS. Fedora Project member & supporter of VideoLAN, KDE, Kernel, Diaspora projects etc."
+        }
+      ],
+      "Interests and Hobbies":[
+        {
+          "title":"Computer Gaming",
+          "subtitle":"",
+          "description":"Action/adventure/platforming, stealth/shooter & arcade-racing are my favorite genres of video games. I'm a fan of Prince of Persia, Need for Speed, Splinter Cell, Call of Duty series and all the games developed by Crytek GmbH."
+        },
+        {
+          "title":"Photography",
+          "subtitle":"",
+          "description":"I mostly do macro-shots with controlled depth of field, color-tuned longshot landscapes, panorama, spontaneous and still life. Have interests in experimental photography; High-Speed/Long-Exposure/Time-Lapse, Infrared/Ultraviolet, HDR are my favorites. [Flickr]"
+        }
+      ]
+    }
+  }
+}
