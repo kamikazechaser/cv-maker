@@ -11,15 +11,19 @@ A minimal, yet beautiful, C.V/Résumé maker
 - Small in size
 - Minimal in nature
 - Hackable to the core
+- In-line HTML markup support for formatting
 
 ## Usage
 
 ```
 1. Clone the repo
-2. Populate "data.json" file with your prsonal data
+2. Populate "data.json" file with your own personal data
 3. Host it anywhere, preferably on a sub-domain
 
-Note: Change the directory structure and/or file names so as to suite your hosts requirements.
+Notes:
+
+1. Change the directory structure and/or file names so as to suite your hosts requirements.
+2. Try and maintain the same structure in "data.json" so as to prevent unintended effects.
 ```
 
 ## Issues and Contributions
