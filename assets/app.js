@@ -1,7 +1,7 @@
 const Prefetch = {
     store: [],
     request: function() {
-        return m.request("data.json").then(userData => {
+        return m.request("../data.json").then(userData => {
             return Prefetch.store = userData.details;
         });
     }
