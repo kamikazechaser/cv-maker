@@ -24,13 +24,7 @@ const Header = {
         return m("header", [
             m("h1", passedData.attrs.name),
             m("section", [
-                m("aside", [
-                    m("a.link[href=/][title=Printer friendly version][target=_blank]", "Download PDF"),
-                    m("br"),
-                    m("br"),
-                    m.trust(`Native Tongue : <b>${passedData.attrs.native_lang}</b><br/>Also fluent in : <b>${passedData.attrs.fluent_langs.join(", ")}</b>`)
-
-                ]),
+                m("aside", [m.trust(`Native Tongue : <b>${passedData.attrs.native_lang}</b><br/>Also fluent in : <b>${passedData.attrs.fluent_langs.join(", ")}</b>`)]),
                 m("", `${passedData.attrs.city}, ${passedData.attrs.country}`),
                 m.trust(`Mobile : <b>${passedData.attrs.mobile}</b><br/>
                 Email : <a href="mailto:${passedData.attrs.email}" target="_blank" title="Contact Email">${passedData.attrs.email}</a><br />
