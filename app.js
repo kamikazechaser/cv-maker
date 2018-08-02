@@ -1,12 +1,21 @@
+const Prefetch = {
+    store: [],
+    request: function() {
+        return m.request("data.json").then(userData => {
+            return Prefetch.store = userData.details;
+        });
+    }
+}
+
 const App = {
-    oninit: function(inputData) {
-        return inputData.state.data = details;
-    },
-    view: function(inputData) {
-        return [
-            m(Header, inputData.state.data.header),
-            m(Body, inputData.state.data.body)
-        ]
+    oninit: Prefetch.request,
+    view: function(vNode) {
+        if (Prefetch.store.length !== 0) {
+            return [
+                m(Header, Prefetch.store.header),
+                m(Body, Prefetch.store.body)
+            ]
+        }
     }
 }
 
@@ -32,7 +41,7 @@ const Header = {
 }
 
 const Body = {
-    view: function (passedData) {
+    view: function(passedData) {
         return m("article", Object.keys(passedData.attrs).map(section => {
             return [
                 m("section", [

@@ -10,7 +10,7 @@ const details = {
         fluent_langs: ["Spanish", "French"]
     },
     body: {
-        professional_experience: [{
+        "professional experience": [{
                 title: "Sun Labs. - Liverpool",
                 subtitle: "[ Lead Backend Developer ]",
                 description: "<b>May, 2016 - Present</b> — Leading the backend of an internal messaging API."
